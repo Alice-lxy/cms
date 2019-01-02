@@ -45,5 +45,9 @@
             $arr = Week::where($where)->update($data);
             print_r($arr);
         }
+
+        public function test(){
+            echo __METHOD__;
+        }
     }
 ?>
